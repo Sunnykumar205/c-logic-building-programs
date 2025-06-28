@@ -1,3 +1,4 @@
+//printing integers from 1 to N numbers
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
