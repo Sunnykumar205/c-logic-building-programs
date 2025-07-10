@@ -1,3 +1,4 @@
+//program to print numbers in english and print even or odd for the numbers which is grater than 9
 #include <iostream>
 #include <cstdio>
 using namespace std;
@@ -6,8 +7,8 @@ int main() {
     // Complete the code.
     int a,i,b;
     cin>>a>>b;
-    for(int i=a;i<=b;i++){
-        switch (i) {
+    for(int i=a;i<=b;i++){//using for loop to check the user input and increase it till second input 
+        switch (i) {//using swith statement for printing the number in english 
     case 1:
     cout<<"one"<<endl;
     break;
@@ -36,8 +37,7 @@ int main() {
     cout<<"nine"<<endl;
     }
     }
-   // for( i=10;i<=b;++i)
-   {
+    for( i=10;i<=b;++i){//usign for loop for checking the number is even or odd
         if(i%2==0){
             cout<<"even"<<endl;
         }
